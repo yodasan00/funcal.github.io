@@ -1,1 +1,0 @@
-# yodasan00.github.io
