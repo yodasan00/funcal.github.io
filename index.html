@@ -1,0 +1,94 @@
+<!--my html is oke ig i didnt add any extra font as it made it slower-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calicss.css">
+    <title>Y's Calculator</title>
+</head>
+<body>
+<div class="container">
+    <div class="bo">
+        <div class="in">
+    <h1>Calculator</h1>
+    <div class="nav">
+    <a class="link" href="" >Instrut</a>&nbsp;
+    <a class="link" href="">contact us</a>
+    </div>
+    <div class="dis">
+        <p class="y" id="o">0</p>
+    </div>
+<div class="keys">
+    <div class="row">
+         <div class="but">  
+            <button class="key" onclick="calculate('7')">7</button>
+         </div>
+         <div class="but"> 
+            <button class="key" onclick="calculate('8')">8</button>
+         </div>
+         <div class="but"> 
+             <button class="key" onclick="calculate('9')">9</button>
+         </div>
+         <div class="but">
+            <button class="key" onclick="calculate('+')">+</button> 
+         </div> 
+    </div>
+    <div class="row">
+        <div class="but">
+            <button class="key" onclick="calculate('4')">4</button>
+        </div>
+        <div class="but">
+            <button class="key" onclick="calculate('5')">5</button>
+        </div>
+        <div class="but">
+            <button class="key" onclick="calculate('6')">6</button>
+        </div>
+        <div class="but">
+            <button class="key" onclick="calculate('-')">-</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="but"> 
+            <button class="key" onclick="calculate('1')">1</button>
+        </div>
+        <div class="but">
+            <button class="key" onclick="calculate('2')">2</button>
+        </div>
+        <div class="but"> 
+            <button class="key" onclick="calculate('3')">3</button>
+        </div>  
+        <div class="but">
+            <button class="key" onclick="calculate('*')">X</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="but">
+            <button class="key" onclick="calculate('.')">.</button>
+        </div>
+        <div class="but">    
+            <button class="key" onclick="calculate('0')">0</button>
+        </div>
+        <div class="but">   
+            <button class="key" onclick="result()">=</button>
+        </div>
+        <div class="but">
+            <button class="key" onclick="calculate('/')">/</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="but">
+            <button class="key5" onclick="clearl()">DEL</button>
+        </div>
+        <div class="but">
+            <button class="key5" onclick="cleard()">AC</button>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+    
+</body>
+<script type="text/javascript" src="calc.js"></script>
+</html>
